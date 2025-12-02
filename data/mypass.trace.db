@@ -1,0 +1,78 @@
+2025-11-24 20:45:46.662455-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VAULT_ITEMS" not found; SQL statement:
+CREATE INDEX IF NOT EXISTS idx_vault_items_type ON vault_items(item_type) [42102-224]
+2025-11-24 20:46:05.091262-05:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT email, password_hash, security_question_1, security_question_2, security_question_3 FROM users WHERE email = ? [42104-224]
+2025-11-24 20:46:24.266597-05:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:46:24.281838-05:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:46:24.414185-05:00 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (email, password_hash, security_question_1, security_question_2, security_question_3) VALUES (?, ?, ?, ?, ?) [42104-224]
+2025-11-24 20:46:44.039666-05:00 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:46:44.050192-05:00 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:46:44.157058-05:00 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (email, password_hash, security_question_1, security_question_2, security_question_3) VALUES (?, ?, ?, ?, ?) [42104-224]
+2025-11-24 20:47:06.184696-05:00 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:47:06.196134-05:00 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:47:06.307919-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (email, password_hash, security_question_1, security_question_2, security_question_3) VALUES (?, ?, ?, ?, ?) [42104-224]
+2025-11-24 20:48:54.424940-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VAULT_ITEMS" not found; SQL statement:
+CREATE INDEX IF NOT EXISTS idx_vault_items_type ON vault_items(item_type) [42102-224]
+2025-11-24 20:49:26.032650-05:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:49:26.046714-05:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:49:26.181025-05:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (email, password_hash, security_question_1, security_question_2, security_question_3) VALUES (?, ?, ?, ?, ?) [42104-224]
+2025-11-24 20:51:28.055637-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VAULT_ITEMS" not found; SQL statement:
+CREATE INDEX IF NOT EXISTS idx_vault_items_type ON vault_items(item_type) [42102-224]
+2025-11-24 20:51:28.066007-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users [42104-224]
+2025-11-24 20:51:45.587740-05:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:51:45.601171-05:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users WHERE email = ? [42104-224]
+2025-11-24 20:51:45.734100-05:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT 1 FROM users LIMIT 1 [42104-224]
+2025-11-24 20:51:45.735648-05:00 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (email, password_hash, security_question_1, security_question_2, security_question_3) VALUES (?, ?, ?, ?, ?) [42104-224]
+2025-11-24 20:51:58.063963-05:00 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT email, password_hash, security_question_1, security_question_2, security_question_3 FROM users WHERE email = ? [42104-224]
+2025-11-24 20:53:05.968023-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VAULT_ITEMS" not found; SQL statement:
+CREATE INDEX IF NOT EXISTS idx_vault_items_type ON vault_items(item_type) [42102-224]
+2025-11-24 20:53:05.979069-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users [42104-224]
+2025-11-24 20:53:24.345109-05:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM users [42104-224]
+2025-11-24 20:53:24.353871-05:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+DELETE FROM users WHERE email = 'test@test.com' [42104-224]
